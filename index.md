@@ -1,7 +1,7 @@
 *This is a demo on Github pages.*
 **This is a demo on Github pages.**
 # Heading 1
-## This is the second title
+## Heading 2
 [Link](http://google.com)
 ![Image]([http://url/a.png](https://images.app.goo.gl/j1CFfhMVSJhwYAu66))
 > I love cats
