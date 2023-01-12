@@ -28,4 +28,4 @@ The first step to remotely connect on Windows is to install `git` for Windows:
 After that you need to follow this post to properly set up your default terminal 
 to use `git bash` in Visual Studio Code:
 
-[Link](https://gitforwindows.org/](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
+[Link](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
