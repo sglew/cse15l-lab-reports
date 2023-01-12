@@ -1,6 +1,6 @@
-#How To Log Into Course-Specific Account on ieng6
+# How To Log Into Course-Specific Account on ieng6
 ----
-##Installing VSCode
+## Installing VSCode
 
 Click on this link to go to the Visual Studio Code website: 
 [Link](https://code.visualstudio.com/)
