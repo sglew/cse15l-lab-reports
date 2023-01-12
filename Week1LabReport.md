@@ -16,7 +16,7 @@ Do not worry if some things look different such as the color or different tabs.
 In this picture, I have the terminal opened up so it might look slighty
 different. 
 
-##Remotely Connecting
+## Remotely Connecting
 
 You might wonder: Why do we need to do this? Well many jobs and instituions use
 course-specific accounts. It is more accessible which allows you to connect to 
