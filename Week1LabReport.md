@@ -49,7 +49,7 @@ Some basic commands you can try are:
 * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
-Try to figure out what they mean and if they produce any error messages. Here is what I have when I put in these commands. What makes yours and mine different? Why do some of them say "File Not Found"? 
+Try to figure out what they mean and if they produce any error messages. Here is what I have when I put in these commands. What makes yours and mine different? Why do some of them say "No such file or directory"? 
 
 ![Image](code_commands.png)
 
