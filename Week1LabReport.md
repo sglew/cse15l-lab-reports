@@ -10,7 +10,7 @@ version for your device, like OSX (for Mac) or Windows (for PC).
 
 When you open up Visual Studio Code, it should look something like this.
 
-![Image](VS Code Image.png)
+![Image](vscode_image.png)
 
 Do not worry if some things look different such as the color or different tabs.
 In this picture, I have the terminal opened up so it might look slighty
