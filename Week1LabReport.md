@@ -53,6 +53,8 @@ Try to figure out what they mean and if they produce any error messages. Here is
 
 ![Image](code_commands.png)
 
+For my results, `cd` and `cd ~` means to change directory and doesn’t show anything if it is working so both commands work. For `ls` it is supposed to list the files and folders in a given path which I believe is `-lat`. In `-a` path, it lists all the files including hidden files. For `ls /home/linux/ieng6/cs15lwi23/cs15lwi23ana`, it is trying to find all the files from this user which it cannot do because it doesn’t have access so it gives a “Permission denied” message. For `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`, it creates a copy of the contents in hello.txt but since it doesn’t exist it shows “No such file or directory.” Lastly, `cat` prints the contents of hello.txt but since it doesn’t exist it also shows “No such file or directory.”
+
 If you got to the end of this page, **CONGRATULATIONS!!** You have successfully set up your course-specific account. Happy coding :DD 
 
 ![Image](360_F_307968645_mUnl6JiKrvODZlPKOqG1H5Td22OLNVS0.jpg)
