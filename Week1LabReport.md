@@ -43,7 +43,6 @@ It should look something like this if you have logged on before but if you haven
 Some basic commands you can try are:
 * `cd ~`
 * `cd`
-* `mkdir`
 * `ls -lat`
 * `ls -a`
 * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
