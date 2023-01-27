@@ -32,7 +32,7 @@ takes in the URL and starts processing our arguments. The methods that our code 
 
 `getPath()` does not take in any argument but returns the path of the given file object which is in this case, 
 the url. `contains()` checks whether a string contains a sequence of characters so in this case we want to check
-the requests that are coming in which is in the format `/add-message?s=<string>`. `getQuery` is part of the URI
+the requests that are coming in which is in the format `/add-message?s=<string>`. `getQuery()` is part of the URI
 class and returns gets query segment of URL object. In this case, we don't want the entire String so we separate 
 it using `split()` which separates the String between the `=`. This is placed inside an array called `parameters`.
 The first argument is always going to be `s` so we use `equals()` to assert that is true. The second parameter is 
