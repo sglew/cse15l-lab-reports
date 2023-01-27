@@ -10,12 +10,12 @@ string that gets added by incoming requests.
 We needed to add `\n` after each string message in order concatenate to a new line for
 any additional strings that come after.
 
-![Image](StringServer_code.png)
+![Image](Week2Images/StringServer_code.png)
 
 Following the assignment directions, I first inputted `Hello` after the request 
 `/add-message?s=<string>`. 
 
-![Image](Hello_SC.png)
+![Image](Week2Images/Hello_SC.png)
 
 We used programs that take an URL as input and respond with the text of webpage. The part of program that
 does the processing is a `URLHandler`. Our class, `StringServer', takes `URLHandler` and starts up a 
@@ -45,7 +45,7 @@ parameter as a String and keep showing the old messages that we have added along
 
 After, I inputted `How are you` after the request `/add-message?s=<string>`. 
 
-![Image](HowAreYou_SC.png)
+![Image](Week2Images/HowAreYou_SC.png)
 
 All the same methods are called again in this case and the arguments in our code calls are the same. The only thing that changes 
 is the second argument after interpretting the query and separating them into two arguments. Again the first argument is always 
