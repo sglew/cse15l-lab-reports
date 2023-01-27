@@ -18,11 +18,12 @@ Following the assignment directions, I first inputted `Hello` after the request
 ![Image](Week2Images/Hello_SC.png)
 
 We used programs that take an URL as input and respond with the text of webpage. The part of program that
-does the processing is a `URLHandler`. Our class, `StringServer', takes `URLHandler` and starts up a 
+does the processing is a `URLHandler`. Our class, `StringServer`, takes `URLHandler` and starts up a 
 server that listen for incoming connections.
 
 For our server to print out `Hello` it first creates an empty String. Then it goes into handleRequest which
 takes in the URL and starts processing our arguments. The methods that our code calls are 
+
 * `getPath()`
 * `contains()`
 * `getQuery()`
