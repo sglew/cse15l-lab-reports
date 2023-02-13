@@ -127,6 +127,7 @@ the Perfume Factory, where you can create your own personal fragrance. Mix essen
 exclusive product. You can even record the recipages. Further north lie the wine-growing regions of the Napa and Sonoma valleys.
 ```
 
+
 This option seems to operate the same as the `grep -n` command we did earlier except it does not show the line number in which it occurs. It also 
 shows the whole snippet of the line in which the word "computer" occurs. This might be useful to search for definitions of a word. Using this option on directories however show a different result:
 
@@ -138,8 +139,10 @@ steph@Stephanie_admin MINGW64 ~/OneDrive/Documents/GitHub/docsearch/written_2 (m
 $ cat grep-results.txt 
 ```
 
+
 `grep` seems to not like directories at all as all the commands I've tested they always gave me the error that I am referencing a directory. This must 
 not be useful for directories is what I have concluded. 
+
 
 ## References
 
