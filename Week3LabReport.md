@@ -112,8 +112,19 @@ $ grep -w "computer" */berlitz2/*.txt > grep-results.txt
 
 steph@Stephanie_admin MINGW64 ~/OneDrive/Documents/GitHub/docsearch/written_2 (main)
 $ cat grep-results.txt 
-travel_guides/berlitz2/Amsterdam-WhereToGo.txt:Next to the museum, and unmistakable by its modern shape and huge green outer walls, is the newMetropolis science and technology center. Opened in 1997, the center was created to bring the latest science and technology literally into the hands of the lay person, whatever their age. Even the location of the building is a technological marvel. It sits high above the entrance to the IJ tunnel, which takes six lanes of traffic under the IJ waterway to Amsterdam’s northern suburbs and north Holland beyond. Inside the center you can try your hand at playing the stock exchange by computer, change the wheel on a car, or look at the cells of the body through a microscope. There are hands-on experiments for everyone from young children to adults, focusing on five linked themes — Energy, Humanity, Interactivity, Science, and Technology.
-travel_guides/berlitz2/Bahamas-WhereToGo.txt:Not surprisingly for a duty-free island, shopping plays a large part in a trip to Grand Bahama. International Bazaar in Freeport takes you on a shopping trip around the world. Enter the bazaar through the red Japanese Torii or “welcome gate” and you can visit France, Africa, and India, all within a few minutes. Unusual offerings such as rare stamps can be found among the standard duty-free shops that carry the most exclusive names in watches, jewelry, and perfume. Behind the South American area you’ll find the Perfume Factory, where you can create your own personal fragrance. Mix essential oils to balance with your skin and give a name to your exclusive product. You can even record the recipages. Further north lie the wine-growing regions of the Napa and Sonoma valleys.
+travel_guides/berlitz2/Amsterdam-WhereToGo.txt:Next to the museum, and unmistakable by its modern shape and huge green outer walls, 
+is the newMetropolis science and technology center. Opened in 1997, the center was created to bring the latest science and technology 
+literally into the hands of the lay person, whatever their age. Even the location of the building is a technological marvel. It sits 
+high above the entrance to the IJ tunnel, which takes six lanes of traffic under the IJ waterway to Amsterdam’s northern suburbs and 
+north Holland beyond. Inside the center you can try your hand at playing the stock exchange by computer, change the wheel on a car, or 
+look at the cells of the body through a microscope. There are hands-on experiments for everyone from young children to adults, focusing 
+on five linked themes — Energy, Humanity, Interactivity, Science, and Technology.
+travel_guides/berlitz2/Bahamas-WhereToGo.txt:Not surprisingly for a duty-free island, shopping plays a large part in a trip to Grand Bahama. 
+International Bazaar in Freeport takes you on a shopping trip around the world. Enter the bazaar through the red Japanese Torii or “welcome 
+gate” and you can visit France, Africa, and India, all within a few minutes. Unusual offerings such as rare stamps can be found among the 
+standard duty-free shops that carry the most exclusive names in watches, jewelry, and perfume. Behind the South American area you’ll find 
+the Perfume Factory, where you can create your own personal fragrance. Mix essential oils to balance with your skin and give a name to your 
+exclusive product. You can even record the recipages. Further north lie the wine-growing regions of the Napa and Sonoma valleys.
 ```
 
 This option seems to operate the same as the `grep -n` command we did earlier except it does not show the line number in which it occurs. It also 
