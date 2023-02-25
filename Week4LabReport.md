@@ -31,7 +31,7 @@ remote account.
 Since we did set up the SSH key in class there was no need to put in the password. After that we want
 to clone my fork of the repository from my Github account. We would go back to the Github and click on
 `<> Code`. Find the `SSH` tab and clicked on the image with two pages next to the Github link. I went back 
-to VS Code, typed in `git clone ` then pressed: `Ctrl`, `v`, and then `<enter>` into the terminal. This
+to VS Code, typed in `git clone ` then pressed: `Ctrl` and `v` together. Then `<enter>` into the terminal. This
 should clone the repository in our remote account. 
 
 ![Image](Week4Images/Copy_gitLink.png)
@@ -53,7 +53,7 @@ it ran correctly, it should show this:
 
 ![Image](Week4Images/run_lab.png)
 
-As we can see here, there is a test we have failed so we have to fix our errors in the ListExamples.java file.
+As we can see here, there is a test we have failed so we have to fix our errors in the `ListExamples.java` file.
 
 ## Edit Code File
 
@@ -77,7 +77,7 @@ to find the `index1` I want to change. Then I pressed `<right><right><right><rig
   
 ![Image](Week4Images/index2.png)
   
-These are all the errors I want to change so I pressed `Ctrl`, `o`, and `<enter>` to save my changes. Here is what it shows after:
+These are all the errors I want to change so I pressed `Ctrl` and `o`. Then `<enter>` to save my changes. Here is what it shows after:
   
 ![Image](Week4Images/Ctrl_o.png)
   
