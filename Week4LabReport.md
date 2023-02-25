@@ -51,7 +51,7 @@ the search history so I pressed: `<up><up><up><enter>`. If it compiled correctly
 To run the tests, I would have to go 3 up in the search history so I pressed: `<up><up><up><enter>`. If
 it ran correctly, it should show this:
 
-![Image](Week4Images/Run_lab7.png)
+![Image](Week4Images/run_lab.png)
 
 As we can see here, there is a test we have failed so we have to fix our errors in the ListExamples.java file.
 
