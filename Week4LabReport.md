@@ -64,10 +64,10 @@ looks like this:
 
 ![Image](Week4Images/fix_nano.png)
   
-To fix the file, I pressed: `<down><down><down><down><down><down><down><down><down><down><down><down><down><down>` which is
-14 lines down from our starting point. I then pressed `<right><right><right><right><right><right><right><right><right><right><right>
-<right><right><right><right><right><right><right><right><right><right><right>` 22 times to get to where I want to start deleting. Then I 
-pressed: `<backspace><backspace><backspace>` 3 times so I would be left with just `result.add(s)`. 
+To fix the file, I pressed: `Ctrl` and `w` together. I typed in `result.add` to find the first instance of the method and then 
+pressed `<enter>`. I then pressed `<right><right><right><right><right><right><right><right><right><right><right>
+<right><right><right>` 14 times to get to where I want to start deleting. Then I pressed: `<backspace><backspace><backspace>` 
+3 times so I would be left with just `result.add(s)`. 
   
 ![Image](Week4Images/result_add.png)
 
