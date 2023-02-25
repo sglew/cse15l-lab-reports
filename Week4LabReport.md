@@ -1,6 +1,6 @@
-## Week 4 Lab Report (Changing a File using nano)
+# Week 4 Lab Report (Changing a File using nano)
 
-# Making a Fork 
+## Making a Fork 
 
 First, I started the process by clicking on the lab 7 repository link in Week 7. I then
 pressed `Fork` at the top right corner of the repository. 
@@ -11,7 +11,7 @@ I then pressed `Create fork` at the bottom of the page.
 
 ![Image](Week4Images/Create_Fork.png)
 
-# Logging onto ieng remote account
+## Logging onto ieng remote account
 
 After that, I opened up Visual Studio Code in order to access my terminal and start logging
 into my remote account. Because I have history of logging into my remote account, I typed out 
@@ -26,7 +26,7 @@ remote account.
 
 ![Image](Week4Images/SSH_Key.png)
 
-# Cloning Fork of Repository 
+## Cloning Fork of Repository 
 
 Since we did set up the SSH key in class there was no need to put in the password. After that we want
 to clone my fork of the repository from my Github account. We would go back to the Github and click on
@@ -40,7 +40,7 @@ This is what should have appeared after completing all the steps to clone the fo
 
 ![Image](Week4Images/Paste_gitLink.png)
 
-# Running JUnit Tests (that fail)
+## Running JUnit Tests (that fail)
 
 First I would have to change directory to lab7 so I typed in `cd lab7` and `<enter>` before I ran the tests. 
 To run the tests, the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 3 up in
@@ -55,7 +55,7 @@ it ran correctly, it should show this:
 
 As we can see here, there is a test we have failed so we have to fix our errors in the ListExamples.java file.
 
-# Edit Code File
+## Edit Code File
 
 Now we want to edit our code file and fix our errors to pass the tests. First I typed in `nano List` and then pressed
 `<tab>` for it to autocomplete to `nano ListExamples`. Since there are two ways it can autocomplete (`ListExamples.java`
@@ -83,7 +83,7 @@ These are all the errors I want to change so I pressed `Ctrl`, `o`, and `<enter>
   
 To exit out of nano I would press: `Ctrl` and `x`. 
 
-# Running JUnit Tests (that pass)
+## Running JUnit Tests (that pass)
   
 We have ran the tests before so we would just press the up arrow to find the history of our commands. For me, I had to press: `<up><up><up><enter>`.
 If it compiled correctly it shouldn't show anything. To run the tests, I pressed: `<up><up><up><enter>`. This is our results after fixing the 
@@ -91,7 +91,7 @@ If it compiled correctly it shouldn't show anything. To run the tests, I pressed
 
 ![Image](Week4Images/run_passlab7.png)
 
-# Committing and Pushing into Github
+## Committing and Pushing into Github
 
 Since all the tests are now satisfied, we now want to commit and push our changes. To do that I typed in: `git add ListExamples.java` and pressed `<enter>`. 
 Then I typed in `git commit -m "Updated"` and pressed `<enter>` and then show this in the terminal:
