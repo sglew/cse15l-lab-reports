@@ -68,11 +68,12 @@ output using space delimiter and looks for the second field which is what we wan
 replaces all occurrences of `(` with nothing since the output has a `(` blocking the number. 
 
 The second variable is looking for `Tests run:` if the file fails some of the tests. It looks for the 
-number after `Tests run:` which is separated by a space. We do not want the , after `Tests run:` to appear
-so we remove that by putting `tr -d ','` after it. 
+number after `Tests run:` which is separated by a space so we use  `cut -d ' ' -f 3` which cuts the 
+output using space delimiter and looks for the third field. We do not want the , after number of tests 
+to appear so we remove that by putting `tr -d ','` after it. 
 
 The third variable looks for `Failures:` since the output shows the number of failures we had. It ends 
-up being in field 6 and we would not have to remove after because the number is the last thing in 
+up being in field 6 and we would not have to remove anything after because the number is the last thing in 
 the line. 
 
 In the end, it sees if there is anything in the `TESTSRUN` variable before saying that all the tests
@@ -80,3 +81,51 @@ has passed. If there is nothing (indicated by `-z` option) it will give 100% and
 tests from `OKTESTS` variable. If there is something in the variable however, it will calculate the 
 score using `TESTSRUN` and `FAILURES` variable. It will then output the total tests ran, the number 
 of failures, and the grade calculated from those two variables. 
+
+## Testing the grader
+
+First I test the grader with the repository from lab 3. This is the output:
+
+![Image](Week5Images/lab3_repo.png)
+
+If you recall, lab 3 should fail the test because it had a runtime error. Specifically it was referencing
+`index1` which does not exist in a for loop. Since our `TestListExamples.java` only has 1 test and they
+failed the test, the student gets a final grade of 0.
+
+Moving on, testing our grader against a correct repository we should see that it passes all tests 
+and gets a 100. 
+
+![Image](Week5Images/correct_repo.png)
+
+Testing the grader with a repository that has compile errors should show this output:
+
+![Image](Week5Images/compile_error.png)
+
+As you can see here, it produces a compile error and the grader stops there as expected. It also shows 
+the compile error output so students know what to change/what had caused a compile error. 
+
+The last repository we'll look at is one where the filter method has parameters in the wrong 
+order. Using our tester we see this output:
+
+![Image](Week5Images/filter_method.png)
+
+As you can see here, it will give an error saying that the filter is not found. Even though the filter
+method exists, it tells the student that it is not the expected filter method so the student will 
+recheck and make sure it is right. 
+
+Since `TestListExamples.java` only has one tester, we would always get 100% or 0%. To test our
+grader and see if it outputs the expected grade, our tester would have to contain more than 1 test. In
+that way it would show more than just:
+
+```
+This is your final grade: 100
+Nice Job!!
+``` 
+
+and 
+
+```
+Tests run: 1
+Failures: 1
+This is your final grade: 0
+```
