@@ -7,7 +7,7 @@ did not really understand how to make a comprehensive test. In the beginning,
 I only made it so the autograder will give a prompt for passing/failing
 the compile and passing/failing the run. This was my code before the edits:
 
-![Image](before_script.png)
+![Image](Week5Images/before_script.png)
 
 As you can see here, it is not as sophisticated as a normal autograder and the
 only thing that the script is testing is if the file compiles and runs. It first
@@ -28,7 +28,7 @@ recursively remove other `student-submission` directories that I had before runn
 my grading script. Then I would `git clone` another student submission, `cd` into 
 `student-submission`, and then search for `ListExamples.java` file.
 
-![Image](find_file.png)
+![Image](Week5Images/find_file.png)
 
 If the conditions are not satisfied, we see that it will indicate the type of error,
 run the server, and then exit the grading script. If it passes however, it will go onto
@@ -41,7 +41,7 @@ The option `-c` after `grep` command prints the count of lines that match the pa
 in the file, we should see that there is 1 instance of the method. More specifically, it looks 
 for matching method headers in the filter and merge method in `ListExamples.java`. 
 
-![Image](method_check.png)
+![Image](Week5Images/method_check.png)
 
 As we can see, if the method exists then it would go through the code. If it finds no matches however, 
 it will indicate which method cannot be found, run the server, and exit the grading script. 
@@ -51,7 +51,7 @@ the compile output. The `2>&1` redirects standard error to standard output and t
 This is useful in that it puts both the regular output and error messages in one file instead of displaying 
 error messages on the screen. 
 
-![Image](compile.png)
+![Image](Week5Images/compile.png)
 
 After compiling, we finally want to run our `TestListExample.java` against `ListExamples.java`. Again, 
 if there are any errors we would want to compile both the regular output and error messages in one
@@ -59,7 +59,7 @@ file using `2>&1`. This is where the hard part is because we want to take specif
 our `run.txt` and use mathematical expressions to calculate our student's score. This is the code I 
 ended up with:
 
-![Image](run.png)
+![Image](Week5Images/run.png)
 
 Since failing and passing all tests produce different outputs, I had to make three different variables 
 and match the pattern. The first varible was `OKTESTS` which tries to find a pattern that matches `OK`
