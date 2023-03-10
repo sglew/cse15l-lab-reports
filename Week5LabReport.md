@@ -118,6 +118,7 @@ grader and see if it outputs the expected grade, our tester would have to contai
 that way it would show more than just:
 
 ```
+Tests run: 1
 This is your final grade: 100
 Nice Job!!
 ``` 
