@@ -69,7 +69,7 @@ replaces all occurrences of `(` with nothing since the output has a `(` blocking
 
 The second variable is looking for `Tests run:` if the file fails some of the tests. It looks for the 
 number after `Tests run:` which is separated by a space so we use  `cut -d ' ' -f 3` which cuts the 
-output using space delimiter and looks for the third field. We do not want the , after number of tests 
+output using space delimiter and looks for the third field. We do not want the `,` after number of tests 
 to appear so we remove that by putting `tr -d ','` after it. 
 
 The third variable looks for `Failures:` since the output shows the number of failures we had. It ends 
