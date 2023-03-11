@@ -7,7 +7,7 @@ did not really understand how to make a comprehensive test. In the beginning,
 I only made it so the autograder will give a prompt for passing/failing
 the compile and passing/failing the run. This was my code before the edits:
 
-![Image](Week5Images/before_script.png)
+![Image](Week5Images/before_script2.png)
 
 As you can see here, it is not as sophisticated as a normal autograder and the
 only thing that the script is testing is if the file compiles and runs. It first
